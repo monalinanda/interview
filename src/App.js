@@ -15,7 +15,6 @@ export default function App() {
 
   useEffect(() => {
     const result = api.get("/posts/1");
-
     setData(result.data);
     console.log(data);
   });
